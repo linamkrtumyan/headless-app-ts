@@ -1,0 +1,20 @@
+.footer_container {
+    background-color: #000;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer_container {
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    }
+}
